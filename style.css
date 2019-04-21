@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background: url(music.jpg)  ;
+    background: url('music.jpg')  ;
     background-size: cover;
 }
 body, html {
