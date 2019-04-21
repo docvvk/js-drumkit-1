@@ -1,54 +1,61 @@
 html {
-    font-size: 10px;
-    background: url('music.jpg')  ;
-    background-size: cover;
+  font-size: 10px;
+  background: url("music.jpg");
+  background-size: cover;
 }
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
+
+div#hc_extension_bkgnd {
+  display: none !important;
+}
+
 .keys {
-    display: flex;
-    flex: 1;
-    min-height: 30vh;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex: 1;
+  min-height: 30vh;
+  align-items: center;
+  justify-content: center;
 }
 .key {
-    border: .5rem solid blanchedalmond;
-    border-radius: 20%;
-    margin: 1rem;
-    font-size: 1.5rem;
-    padding: 1rem;
-    transition: all .1s ease;
-    text-align: center;
-    color: antiquewhite;
-    background: rgba(231, 64, 23, 0.288);
-    width: 10rem;
-    text-shadow: 2rem 2rem 5rem beige;
+  border: 0.5rem solid blanchedalmond;
+  border-radius: 20%;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: all 0.1s ease;
+  text-align: center;
+  color: antiquewhite;
+  background: rgba(231, 64, 23, 0.288);
+  width: 10rem;
+  text-shadow: 2rem 2rem 5rem beige;
 }
 .playing {
-    transform: scale(1.1);
-    border-color: rgb(136, 0, 0);
-    box-shadow: .5rem .5rem 1rem rgb(255, 153, 0), .5rem .5rem 1rem red ;
+  transform: scale(1.1);
+  border-color: rgb(136, 0, 0);
+  box-shadow: 0.5rem 0.5rem 1rem rgb(255, 153, 0), 0.5rem 0.5rem 1rem red;
 }
 kbd {
-    display: block;
-    font-size: 4rem;
+  display: block;
+  font-size: 4rem;
 }
 .sound {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    color: rgb(248, 236, 197);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: rgb(248, 236, 197);
 }
 .rotate {
-    position: relative;
-    top: 280px;
-    text-align: center;
-    font-size: 2rem;
-    color: blanchedalmond;
-    text-transform: uppercase;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  position: relative;
+  top: 280px;
+  text-align: center;
+  font-size: 2rem;
+  color: blanchedalmond;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
